@@ -3,7 +3,7 @@
     {
       question: "Which would you most NOT want to be trapped in a room with?",
       answers: {
-        a: "Sexy Mom",
+        a: "Triggered Mom",
         b: "Mexican Cage Fighter",
         c: "Starving Lion"
       },
