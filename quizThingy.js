@@ -33,6 +33,17 @@
       result1Answer: "a",
       result2Answer: "b",
       result3Answer: "c"
+    },
+    {
+      question: "What does the fox say?",
+      answers: {
+        a: "CAH CAH CAH CAH CAH CAH CAH CAH CAH",
+        b: "meow",
+        c: "ribbit"
+      },
+      result1Answer: "a",
+      result2Answer: "b",
+      result3Answer: "c"
     }
   ];
 
