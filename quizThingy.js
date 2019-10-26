@@ -1,13 +1,16 @@
 (function() {
   const myQuestions = [
     {
-      question: "Which would win in a fight to the death?",
+      question: "What kind of animal are you?",
       answers: {
         a: "Triggered Mom",
         b: "Mexican Cage Fighter",
         c: "Starving Lion"
       },
-      correctAnswer: "a"
+      result1Answer: "a",
+      result2Answer: "b",
+      result3Answer: "c"
+
     },
     {
       question: "Who is the dankest Meme Master?",
@@ -16,17 +19,20 @@
         b: "Shia LaBeouf",
         c: "Trick question; they're both the best"
       },
-      correctAnswer: "c"
+      result1Answer: "a",
+      result2Answer: "b",
+      result3Answer: "c"
     },
     {
       question: "Where is Waldo really?",
       answers: {
         a: "Antarctica",
         b: "Exploring the Pacific Ocean",
-        c: "Sitting in a tree",
-        d: "Minding his own business, so stop asking"
+        c: "Sitting in a tree"
       },
-      correctAnswer: "d"
+      result1Answer: "a",
+      result2Answer: "b",
+      result3Answer: "c"
     }
   ];
 
@@ -69,7 +75,10 @@
     const answerContainers = quizContainer.querySelectorAll(".answers");
 
     // keep track of user's answers
-    let numCorrect = 0;
+    let result1 = 0;
+    let result2 = 0;
+    let result3 = 0;
+    let result4 = 0;
 
     // for each question...
     myQuestions.forEach((currentQuestion, questionNumber) => {
@@ -78,22 +87,47 @@
       const selector = `input[name=question${questionNumber}]:checked`;
       const userAnswer = (answerContainer.querySelector(selector) || {}).value;
 
-      // if answer is correct
-      if (userAnswer === currentQuestion.correctAnswer) {
-        // add to the number of correct answers
-        numCorrect++;
+      // if answer is matches
+      if (userAnswer === currentQuestion.result1Answer) {
+        // add to the number of result1 points
+        result1++;
+    
+        // color the answers green
+        answerContainers[questionNumber].style.color = "lightgreen";
+
+      } else if (userAnswer === currentQuestion.result2Answer) {
+        //add to the number of result2 points
+        result2++;
+
+        // color the answers green
+        answerContainers[questionNumber].style.color = "lightgreen";
+      } else if (userAnswer === currentQuestion.result3Answer) {
+        //add to the number of result3 points
+        result3++;
 
         // color the answers green
         answerContainers[questionNumber].style.color = "lightgreen";
       } else {
-        // if answer is wrong or blank
-        // color the answers red
-        answerContainers[questionNumber].style.color = "red";
+        //print("SOMETHING WENT WRONG!!!!");
+
       }
+
     });
 
     // show number of correct answers out of total
-    resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+    if (result1 > result2 && result1 > result3){
+      resultsContainer.innerHTML = `You are a RESULT1 lmaooo`;
+    }
+    else if (result2 > result1 && result2 > result3){
+      resultsContainer.innerHTML = `You are a RESULT2 lmaooo`;
+    }
+    else if (result3 > result1 && result3 > result2){
+      resultsContainer.innerHTML = `You are a RESULT3 lmaooo`;
+    }else{
+      print("SOMETHING IS WRONG!!!!")
+    }
+  
+    
   }
 
   function showSlide(n) {
