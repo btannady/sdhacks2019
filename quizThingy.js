@@ -1,49 +1,49 @@
 (function() {
   const myQuestions = [
     {
-      question: "What kind of animal are you?",
+      question: "Which would you most NOT want to be trapped in a room with?",
       answers: {
         a: "Triggered Mom",
         b: "Mexican Cage Fighter",
         c: "Starving Lion"
       },
       result1Answer: "a",
-      result2Answer: "b",
-      result3Answer: "c"
+      result2Answer: "c",
+      result3Answer: "b"
 
     },
     {
-      question: "Who is the dankest Meme Master?",
+      question: "What does a perfect day sound like to you?",
       answers: {
-        a: "Keanu Reeves",
-        b: "Shia LaBeouf",
-        c: "Trick question; they're both the best"
+        a: "Napping",
+        b: "Watching TV ",
+        c: "Going outside"
       },
-      result1Answer: "a",
-      result2Answer: "b",
+      result1Answer: "b",
+      result2Answer: "a",
       result3Answer: "c"
     },
     {
-      question: "Where is Waldo really?",
+      question: "What is your major?",
       answers: {
-        a: "Antarctica",
-        b: "Exploring the Pacific Ocean",
-        c: "Sitting in a tree"
+        a: "STEM",
+        b: "Non-STEM",
+        c: "I'm not in College lol"
       },
-      result1Answer: "a",
+      result1Answer: "c",
       result2Answer: "b",
-      result3Answer: "c"
+      result3Answer: "a"
     },
     {
-      question: "What does the fox say?",
+      question: "What is most important to you, BE HONEST -_-?",
       answers: {
-        a: "CAH CAH CAH CAH CAH CAH CAH CAH CAH",
-        b: "meow",
-        c: "ribbit"
+        a: "Facial beauty",
+        b: "Thicc thighs",
+        c: "The Heart <3"
       },
       result1Answer: "a",
-      result2Answer: "b",
-      result3Answer: "c"
+      result2Answer: "c",
+      result3Answer: "b"
     }
   ];
 
@@ -89,7 +89,6 @@
     let result1 = 0;
     let result2 = 0;
     let result3 = 0;
-    let result4 = 0;
 
     // for each question...
     myQuestions.forEach((currentQuestion, questionNumber) => {
@@ -127,13 +126,13 @@
 
     // show number of correct answers out of total
     if (result1 > result2 && result1 > result3){
-      resultsContainer.innerHTML = `You are a RESULT1 lmaooo`;
+      resultsContainer.innerHTML = `FEISTY GIRLS are for just for you lmaooo`;
     }
     else if (result2 > result1 && result2 > result3){
-      resultsContainer.innerHTML = `You are a RESULT2 lmaooo`;
+      resultsContainer.innerHTML = `SUBMISSIVE GIRLS are just for you lmaooo`;
     }
     else if (result3 > result1 && result3 > result2){
-      resultsContainer.innerHTML = `You are a RESULT3 lmaooo`;
+      resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
     }else{
       print("SOMETHING IS WRONG!!!!")
     }
