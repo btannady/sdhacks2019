@@ -1,0 +1,59 @@
+[33mcommit 3986157fcdd780a41e1703a38c61422e25821e3b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Zeffery <zee.mohamedy@gmail.com>
+Date:   Sat Oct 26 16:16:35 2019 -0700
+
+    changed questions and answers
+
+[33mcommit f6e8f8b2c107e45e6a89340f5fc5fb29ef895a82[m
+Author: Zeffery <zee.mohamedy@gmail.com>
+Date:   Sat Oct 26 16:12:24 2019 -0700
+
+    triggered to sexy
+
+[33mcommit 1550cf396f50b5cb66a876f8c7c67d4e288bd725[m
+Author: Benedict Tannady <benedicttannady@Benedicts-MacBook-Pro.local>
+Date:   Sat Oct 26 13:57:08 2019 -0700
+
+    Changed the questions and answers.
+
+[33mcommit 66819fbfaddfd3978dbba740a3808e94b07028db[m
+Author: Benedict Tannady <benedicttannady@Benedicts-MacBook-Pro.local>
+Date:   Sat Oct 26 13:36:28 2019 -0700
+
+    fixed a bug with the amount of questions, make sure the questions listed are multiples equal to the amount of result choices there are OTHERWISE you will get even points for the results and a bug will occur...
+
+[33mcommit ca088f8dc7511fe6197014b5a3c84e9f02e000d5[m
+Author: Benedict Tannady <benedicttannady@Benedicts-MacBook-Pro.local>
+Date:   Sat Oct 26 13:13:06 2019 -0700
+
+    Huge Update: changed the quiz format from 'correct and incorrect' answer format, into no wrong answers but unique result format
+
+[33mcommit 35e0d64facca948245438e4be45a30273c28d6e9[m
+Author: Benedict Tannady <benedicttannady@Benedicts-MacBook-Pro.local>
+Date:   Sat Oct 26 12:08:09 2019 -0700
+
+    changed questions a bit lol
+
+[33mcommit 009a43ca6844e61a57a7f4a544066b1bdb993616[m
+Author: Benedict Tannady <benedicttannady@Benedicts-MacBook-Pro.local>
+Date:   Sat Oct 26 11:26:41 2019 -0700
+
+    init
+
+[33mcommit 33159cbdcb0ad2b29cef126987f4090e17c6aa14[m
+Author: Benedict Tannady <39476859+btannady@users.noreply.github.com>
+Date:   Sat Oct 26 10:30:07 2019 -0700
+
+    Update README.md
+
+[33mcommit 959794cb3e1706203e67925a900512784382e56d[m
+Author: z33sh <41220188+z33sh@users.noreply.github.com>
+Date:   Fri Oct 25 23:34:38 2019 -0700
+
+    Update README.md
+
+[33mcommit 0d66540474f0ea4bdd032ea7e7f9d5f51b8a8ecc[m
+Author: Benedict Tannady <39476859+btannady@users.noreply.github.com>
+Date:   Fri Oct 25 21:06:52 2019 -0700
+
+    Initial commit
