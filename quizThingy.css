@@ -3,16 +3,16 @@
 body{
     font-size: 20px;
     font-family: 'Comic Sans', sans-serif;
-    color: rgb(41, 201, 193);
+    color: rgb(74, 78, 78);
   font-weight: 300;
   text-align: center;
-  background-color: #6a97a5;
+  background-image: url(https://images-https://pbs.twimg.com/profile_images/798647669933510656/WqxA_xx8.jpg-ed30a86b8c4ca887773594c2.wixmp.com/f/6d54da2c-4108-4e69-859f-590673c4aa25/d4pish2-e3d1f674-cf2e-46a0-b5e9-0609215e8bbf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZkNTRkYTJjLTQxMDgtNGU2OS04NTlmLTU5MDY3M2M0YWEyNVwvZDRwaXNoMi1lM2QxZjY3NC1jZjJlLTQ2YTAtYjVlOS0wNjA5MjE1ZThiYmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Txy-MxnhB8q3tPCnYTyVtbU8qKYrciYsPlcPpvZgxCY);
 }
 h1{
   font-weight: 300;
   margin: 0px;
   padding: 10px;
-  font-size: 20px;
+  font-size: 50px;
   background-color: #444;
   color: #fff;
 }
