@@ -1,19 +1,19 @@
 (function() {
   const myQuestions = [
     {
-      question: "Who is the strongest?",
+      question: "Which would win in a fight to the death?",
       answers: {
-        a: "Superman",
-        b: "The Terminator",
-        c: "Waluigi, obviously"
+        a: "Triggered Mom",
+        b: "Mexican Cage Fighter",
+        c: "Starving Lion"
       },
-      correctAnswer: "c"
+      correctAnswer: "a"
     },
     {
-      question: "What is the best site ever created?",
+      question: "Who is the dankest Meme Master?",
       answers: {
-        a: "SitePoint",
-        b: "Simple Steps Code",
+        a: "Keanu Reeves",
+        b: "Shia LaBeouf",
         c: "Trick question; they're both the best"
       },
       correctAnswer: "c"
