@@ -51,7 +51,11 @@ button{
     padding: 20px;
     cursor: pointer;
     margin-bottom: 20px;
+<<<<<<< HEAD
     margin-top: 80px;
+=======
+    margin-top: 20px;
+>>>>>>> 3a61d1e34b52edd71b0615cf387d802b9d974801
     width: 999;
 }
 button:hover{
