@@ -8,14 +8,17 @@
         c: "Starving Lion",
         d: "doof",
         e: "a",
-        f: "q"
+        f: "q",
+        g: "f"
       },
-      result1Answer: "a",
-      result2Answer: "b",
-      result3Answer: "c",
-      result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f"
+      result1Answer: "a", //Logan Paul
+      result2Answer: "b", //Cody Ko
+      result3Answer: "c", //idubbbz
+      result4Answer: "d", //h3h3
+      result5Answer: "e", //pewdiepie
+      result6Answer: "f", //michael reeves
+      result7Answer: "g" //techLead
+
 
     },
     {
@@ -26,7 +29,8 @@
         c: "Going outside",
         d: "soof",
         e: "q",
-        f: "g"
+        f: "g",
+        g: "h"
 
       },
       result1Answer: "a",
@@ -34,7 +38,8 @@
       result3Answer: "c",
       result4Answer: "d",
       result5Answer: "e",
-      result6Answer: "f"
+      result6Answer: "f",
+      result7Answer: "g"
     },
     {
       question: "What is your major?",
@@ -51,7 +56,8 @@
       result3Answer: "c",
       result4Answer: "d",
       result5Answer: "e",
-      result6Answer: "f"
+      result6Answer: "f",
+      result7Answer: "g"
     },
     {
       question: "What is most important to you, BE HONEST -_-?",
@@ -61,16 +67,124 @@
         c: "The Heart <3",
         d: "kroof",
         e: "y",
-        f: "b"
+        f: "b",
+        g: "r"
       },
       result1Answer: "a",
       result2Answer: "b",
       result3Answer: "c",
       result4Answer: "d",
       result5Answer: "e",
-      result6Answer: "f"
+      result6Answer: "f",
+      result7Answer: "g"
+      
+    },
+    {
+      question: "What is most important to you, BE HONEST -_-?",
+      answers: {
+        a: "Facial beauty",
+        b: "Thicc thighs",
+        c: "The Heart <3",
+        d: "kroof",
+        e: "y",
+        f: "b",
+        g: "r"
+      },
+      result1Answer: "a",
+      result2Answer: "b",
+      result3Answer: "c",
+      result4Answer: "d",
+      result5Answer: "e",
+      result6Answer: "f",
+      result7Answer: "g"
+      
+    },
+    {
+      question: "What is most important to you, BE HONEST -_-?",
+      answers: {
+        a: "Facial beauty",
+        b: "Thicc thighs",
+        c: "The Heart <3",
+        d: "kroof",
+        e: "y",
+        f: "b",
+        g: "r"
+      },
+      result1Answer: "a",
+      result2Answer: "b",
+      result3Answer: "c",
+      result4Answer: "d",
+      result5Answer: "e",
+      result6Answer: "f",
+      result7Answer: "g"
+      
+    },
+
+    {
+      question: "What is most important to you, BE HONEST -_-?",
+      answers: {
+        a: "Facial beauty",
+        b: "Thicc thighs",
+        c: "The Heart <3",
+        d: "kroof",
+        e: "y",
+        f: "b",
+        g: "r"
+      },
+      result1Answer: "a",
+      result2Answer: "b",
+      result3Answer: "c",
+      result4Answer: "d",
+      result5Answer: "e",
+      result6Answer: "f",
+      result7Answer: "g"
+      
+    },
+
+    {
+      question: "What is most important to you, BE HONEST -_-?",
+      answers: {
+        a: "Facial beauty",
+        b: "Thicc thighs",
+        c: "The Heart <3",
+        d: "kroof",
+        e: "y",
+        f: "b",
+        g: "r"
+      },
+      result1Answer: "a",
+      result2Answer: "b",
+      result3Answer: "c",
+      result4Answer: "d",
+      result5Answer: "e",
+      result6Answer: "f",
+      result7Answer: "g"
+      
+    },
+
+    {
+      question: "What is most important to you, BE HONEST -_-?",
+      answers: {
+        a: "Facial beauty",
+        b: "Thicc thighs",
+        c: "The Heart <3",
+        d: "kroof",
+        e: "y",
+        f: "b",
+        g: "r"
+      },
+      result1Answer: "a",
+      result2Answer: "b",
+      result3Answer: "c",
+      result4Answer: "d",
+      result5Answer: "e",
+      result6Answer: "f",
+      result7Answer: "g"
       
     }
+
+
+
   ];
 
   function buildQuiz() {
@@ -118,6 +232,7 @@
     let result4 = 0;
     let result5 = 0;
     let result6 = 0;
+    let result7 = 0;
 
 
     // for each question...
@@ -159,6 +274,10 @@
         //add to the number of result3 points
         result6++;
         console.log(result6);
+      } else if (userAnswer === currentQuestion.result7Answer) {
+        //add to the number of result3 points
+        result7++;
+        console.log(result7);
 
         // color the answers green
       answerContainers[questionNumber].style.color = "lightgreen";
@@ -170,22 +289,25 @@
     });
 
     // show number of correct answers out of total
-    if (result1 > result2 && result1 > result3 && result1 > result4 && result1 > result5 && result1 > result6){
+    if (result1 > result2 && result1 > result3 && result1 > result4 && result1 > result5 && result1 > result6 && result1 > result7){
       resultsContainer.innerHTML = `FEISTY GIRLS are for just for you lmaooo`; 
     }
-    else if (result2 > result1 && result2 > result3 && result2 > result4 && result2 > result5 && result2 > result6){
+    else if (result2 > result1 && result2 > result3 && result2 > result4 && result2 > result5 && result2 > result6 && result2 > result7){
       resultsContainer.innerHTML = `SUBMISSIVE GIRLS are just for you lmaooo`;
     }
-    else if (result3 > result1 && result3 > result2 && result3 > result4 && result3 > result5 && result3 > result6){
+    else if (result3 > result1 && result3 > result2 && result3 > result4 && result3 > result5 && result3 > result6 && result3 > result7){
       resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
     }
-    else if (result4 > result1 && result4 > result2 && result4 > result3 && result4 > result5 && result4 > result6){
+    else if (result4 > result1 && result4 > result2 && result4 > result3 && result4 > result5 && result4 > result6 && result4 > result7){
       resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
     }
-    else if (result5 > result1 && result5 > result2 && result5 > result3 && result5 > result4 && result5 > result6){
+    else if (result5 > result1 && result5 > result2 && result5 > result3 && result5 > result4 && result5 > result6 && result5 > result7){
       resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
     }
-    else if (result6 > result1 && result6 > result2 && result6 > result3 && result6 > result4 && result6 > result5){
+    else if (result6 > result1 && result6 > result2 && result6 > result3 && result6 > result4 && result6 > result5 & result6 > result7){
+      resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
+    }
+    else if (result7 > result1 && result7 > result2 && result7 > result3 && result7 > result4 && result7 > result5 & result7 > result6){
       resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
     }else{
       console.log("SOMETHING IS WRONG!!!!")
