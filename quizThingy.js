@@ -3,80 +3,81 @@
     {
       question: "Which would you most NOT want to be trapped in a room with?",
       answers: {
-        a: "Triggered Mom",
-        b: "Mexican Cage Fighter",
-        c: "Starving Lion",
-        d: "doof",
-        e: "a",
-        f: "q",
-        g: "f"
+        a: "Reading", 
+        b: "Programming", 
+        c: "Exercising", 
+        d: "Playing with squirrels",
+        e: "Gaming", 
+        f: "Looking at memes", 
+        g: "Partying" 
       },
-      result1Answer: "a", //Logan Paul
-      result2Answer: "b", //Cody Ko
-      result3Answer: "c", //idubbbz
-      result4Answer: "d", //h3h3
-      result5Answer: "e", //pewdiepie
-      result6Answer: "f", //michael reeves
-      result7Answer: "g" //techLead
+      result1Answer: "e", 
+      result2Answer: "c", 
+      result3Answer: "f", 
+      result4Answer: "d", 
+      result5Answer: "g", 
+      result6Answer: "a", 
+      result7Answer: "b" 
 
 
     },
     {
-      question: "What does a perfect day sound like to you?",
+      question: "Favorite social media?",
       answers: {
-        a: "Napping",
-        b: "Watching TV ",
-        c: "Going outside",
-        d: "soof",
-        e: "q",
-        f: "g",
-        g: "h"
+        a: "Reddit",
+        b: "Github",
+        c: "4chan",
+        d: "Snapchat",
+        e: "Instagram",
+        f: "Twitter",
+        g: "Linkedin"
 
       },
       result1Answer: "a",
-      result2Answer: "b",
-      result3Answer: "c",
-      result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f",
-      result7Answer: "g"
+      result2Answer: "e",
+      result3Answer: "f",
+      result4Answer: "c",
+      result5Answer: "d",
+      result6Answer: "g",
+      result7Answer: "b"
     },
     {
-      question: "What is your major?",
+      question: "What is your favorite videogame?",
       answers: {
-        a: "STEM",
-        b: "Non-STEM",
-        c: "I'm not in College lol",
-        d: "doof",
-        e: "a",
-        f: "q"
+        a: "Fortnite",
+        b: "Call of Duty",
+        c: "Tetris",
+        d: "Mario",
+        e: "Roblox",
+        f: "Minecraft",
+        g: "Quizlet"
       },
-      result1Answer: "a",
-      result2Answer: "b",
+      result1Answer: "f",
+      result2Answer: "a",
       result3Answer: "c",
       result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f",
-      result7Answer: "g"
+      result5Answer: "b",
+      result6Answer: "g",
+      result7Answer: "e"
     },
     {
-      question: "What is most important to you, BE HONEST -_-?",
+      question: "What kind of social enviornment are you most comfortable in?",
       answers: {
-        a: "Facial beauty",
-        b: "Thicc thighs",
-        c: "The Heart <3",
-        d: "kroof",
-        e: "y",
-        f: "b",
-        g: "r"
+        a: "Only if I'm giving a presentation",
+        b: "Depends on the people...",
+        c: "Where's the party?",
+        d: "Only 1-1 conversations",
+        e: "Pretty social",
+        f: "IDK, I'm so wasted xD",
+        g: "What are friends?"
       },
-      result1Answer: "a",
-      result2Answer: "b",
-      result3Answer: "c",
-      result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f",
-      result7Answer: "g"
+      result1Answer: "e",
+      result2Answer: "f",
+      result3Answer: "d",
+      result4Answer: "b",
+      result5Answer: "c",
+      result6Answer: "g",
+      result7Answer: "a"
       
     },
     {
