@@ -12,6 +12,4 @@ Our team had a great time learning and challenging ourselves in this year's Hack
 
 Thanks for your support!
 -------------------------
-- Benedict Tannady
-- Zeeshan Mohamedy
-- Dennis Juanito
+Benedict Tannady | Zeeshan Mohamedy | Dennis Juanito
