@@ -187,6 +187,7 @@
 
   ];
 
+/*------------------------------------------------------------------*/
   function buildQuiz() {
     // we'll need a place to store the HTML output
     const output = [];
@@ -221,6 +222,7 @@
     quizContainer.innerHTML = output.join("");
   }
 
+/*------------------------------------------------------------------*/
   function showResults() {
     // gather answer containers from our quiz
     const answerContainers = quizContainer.querySelectorAll(".answers");
@@ -288,27 +290,28 @@
 
     });
 
-    // show number of correct answers out of total
+/*------------------------------------------------------------------*/
+    // show final results based on which 'result count' contains the highest corresponding answers out of total
     if (result1 > result2 && result1 > result3 && result1 > result4 && result1 > result5 && result1 > result6 && result1 > result7){
-      resultsContainer.innerHTML = `FEISTY GIRLS are for just for you lmaooo`; 
+      resultsContainer.innerHTML = `Pewdiepie is your Youtuber!!`; 
     }
     else if (result2 > result1 && result2 > result3 && result2 > result4 && result2 > result5 && result2 > result6 && result2 > result7){
-      resultsContainer.innerHTML = `SUBMISSIVE GIRLS are just for you lmaooo`;
+      resultsContainer.innerHTML = `Logan Paul is your Youtuber!!`;
     }
     else if (result3 > result1 && result3 > result2 && result3 > result4 && result3 > result5 && result3 > result6 && result3 > result7){
-      resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
+      resultsContainer.innerHTML = 'H3H3 is your Youtuber!!';
     }
     else if (result4 > result1 && result4 > result2 && result4 > result3 && result4 > result5 && result4 > result6 && result4 > result7){
-      resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
+      resultsContainer.innerHTML = `iDubbbz is your Youtuber!!`;
     }
     else if (result5 > result1 && result5 > result2 && result5 > result3 && result5 > result4 && result5 > result6 && result5 > result7){
-      resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
+      resultsContainer.innerHTML = `Cody Ko is your Youtuber!!`;
     }
     else if (result6 > result1 && result6 > result2 && result6 > result3 && result6 > result4 && result6 > result5 & result6 > result7){
-      resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
+      resultsContainer.innerHTML = `TechLead is your Youtuber!!`;
     }
     else if (result7 > result1 && result7 > result2 && result7 > result3 && result7 > result4 && result7 > result5 & result7 > result6){
-      resultsContainer.innerHTML = `GEEKY GIRLS are just for you lmaooo`;
+      resultsContainer.innerHTML = `Michael Reemes is your Youtuber!!`;
     }else{
       console.log("SOMETHING IS WRONG!!!!")
     }
@@ -316,6 +319,7 @@
     
   }
 
+/*------------------------------------------------------------------*/
   function showSlide(n) {
     slides[currentSlide].classList.remove("active-slide");
     slides[n].classList.add("active-slide");
@@ -330,14 +334,17 @@
     }
   }
 
+/*------------------------------------------------------------------*/
   function showNextSlide() {
     showSlide(currentSlide + 1);
   }
 
+/*------------------------------------------------------------------*/
   function showPreviousSlide() {
     showSlide(currentSlide - 1);
   }
 
+/*------------------------------------------------------------------*/
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
