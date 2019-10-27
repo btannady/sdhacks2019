@@ -145,12 +145,6 @@
     slides[n].classList.add("active-slide");
     currentSlide = n;
     
-    if (currentSlide === 0) {
-      previousButton.style.display = "none";
-    } else {
-      previousButton.style.display = "inline-block";
-    }
-    
     if (currentSlide === slides.length - 1) {
       nextButton.style.display = "none";
       submitButton.style.display = "inline-block";
@@ -175,7 +169,6 @@
   // display quiz right away
   buildQuiz();
 
-  const previousButton = document.getElementById("previous");
   const nextButton = document.getElementById("next");
   const slides = document.querySelectorAll(".slide");
   let currentSlide = 0;
@@ -184,6 +177,5 @@
 
   // on submit, show results
   submitButton.addEventListener("click", showResults);
-  previousButton.addEventListener("click", showPreviousSlide);
   nextButton.addEventListener("click", showNextSlide);
 })();
