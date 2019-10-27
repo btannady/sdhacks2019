@@ -14,7 +14,7 @@ h1{
   font-weight: 600;
   margin: 0px;
   padding: 25px;
-  font-size: 50px;
+  font-size: 49px;
   background-color: rgb(226, 173, 236);
   color: rgb(19, 1, 24);
 }
@@ -65,5 +65,5 @@ button:hover{
   position: relative;
   background-color: lightyellow;
   height: 170px;
-  margin-top: 40px;
+  margin-top: 17px;
 }
