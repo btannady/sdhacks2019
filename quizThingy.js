@@ -3,7 +3,6 @@
     {
       question: "What do you enjoy doing in your free time?",
       answers: {
-<<<<<<< HEAD
         a: "Triggered Mom",
         b: "Mexican Cage Fighter",
         c: "Starving Lion",
@@ -19,22 +18,6 @@
       result5Answer: "e", //pewdiepie
       result6Answer: "f", //michael reeves
       result7Answer: "g" //techLead
-
-=======
-        a: "Reading",
-        b: "Looking at memes",
-        c: "Gaming",
-        d: "Playing with squirrels",
-        e: "Exercising",
-        f: "Programming"
-      },
-      result1Answer: "a", 
-      result2Answer: "b",
-      result3Answer: "c",
-      result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f"
->>>>>>> cf881f7deb0f3ef55367e7292443542f6c9159e5
 
     },
     {
@@ -65,7 +48,8 @@
         c: "I'm not in College lol",
         d: "doof",
         e: "a",
-        f: "q"
+        f: "q",
+        g: "d"
       },
       result1Answer: "a",
       result2Answer: "b",
