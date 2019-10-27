@@ -3,21 +3,21 @@
     {
       question: "What do you enjoy doing in your free time?",
       answers: {
-        a: "Triggered Mom",
-        b: "Mexican Cage Fighter",
-        c: "Starving Lion",
-        d: "doof",
-        e: "a",
-        f: "q",
-        g: "f"
+        a: "Reading",
+        b: "Programming",
+        c: "Exercising",
+        d: "Playing with squirrels",
+        e: "Gaming",
+        f: "Looking at memes",
+        g: "Partying"
       },
-      result1Answer: "a", //Logan Paul
-      result2Answer: "b", //Cody Ko
-      result3Answer: "c", //idubbbz
-      result4Answer: "d", //h3h3
-      result5Answer: "e", //pewdiepie
-      result6Answer: "f", //michael reeves
-      result7Answer: "g" //techLead
+      result1Answer: "a", 
+      result2Answer: "b", 
+      result3Answer: "c", 
+      result4Answer: "d", 
+      result5Answer: "e", 
+      result6Answer: "f", 
+      result7Answer: "g" 
 
     },
     {
