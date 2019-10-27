@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon server.js",
+        "start": "nodemon local.js",
+        "deploy": "serverless deploy",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -18,7 +19,10 @@
     },
     "homepage": "https://github.com/btannady/sdhacks2019#readme",
     "dependencies": {
-        "express": "^4.17.1",
-        "live-server": "^1.2.1"
+        "aws-serverless-express": "^3.3.6",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "serverless": "^1.55.1"
     }
 }

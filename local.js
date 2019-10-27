@@ -1,3 +1,6 @@
+const app = require('./src/server.js');
+const port = process.env.PORT || 8000;
+
 const express = require('express');
 const path = require('path');
 
@@ -14,4 +17,8 @@ app.get('/', (req, res) => {
 
 // Server
 const port = process.env.PORT || 8000;
-module.exports = app;
+
+// Server
+app.listen(port, () => {
+   console.log(`Listening on: http://localhost:${port}`);
+});

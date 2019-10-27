@@ -1,0 +1,16 @@
+service: sd-hacks-2019-app
+
+provider:
+ name: aws
+ runtime: nodejs11.12
+ memorySize: 128
+ timeout: 10
+ stage: production
+ region: us-west
+
+functions:
+ api:
+   handler: lambda.universal
+   events:
+     - http: ANY {proxy+}
+     - http: ANY /
