@@ -100,86 +100,86 @@
       
     },
     {
-      question: "What is most important to you, BE HONEST -_-?",
+      question: "What is your favorite sport?",
       answers: {
-        a: "Facial beauty",
-        b: "Thicc thighs",
-        c: "The Heart <3",
-        d: "kroof",
-        e: "y",
-        f: "b",
-        g: "r"
+        a: "Boxing",
+        b: "Soccer",
+        c: "Hotdog Eating",
+        d: "Chess",
+        e: "Table Tennis",
+        f: "Hunting",
+        g: "E-Sports"
       },
-      result1Answer: "a",
-      result2Answer: "b",
+      result1Answer: "g",
+      result2Answer: "a",
       result3Answer: "c",
-      result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f",
-      result7Answer: "g"
+      result4Answer: "f",
+      result5Answer: "b",
+      result6Answer: "d",
+      result7Answer: "e"
       
     },
 
     {
-      question: "What is most important to you, BE HONEST -_-?",
+      question: "Where would one find you on campus?",
       answers: {
-        a: "Facial beauty",
-        b: "Thicc thighs",
-        c: "The Heart <3",
-        d: "kroof",
-        e: "y",
-        f: "b",
-        g: "r"
+        a: "Library",
+        b: "Playing Smash",
+        c: "Club Events",
+        d: "CS Lab",
+        e: "Dining Hall",
+        f: "On a date",
+        g: "Chasing raccoons"
       },
-      result1Answer: "a",
-      result2Answer: "b",
-      result3Answer: "c",
-      result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f",
-      result7Answer: "g"
+      result1Answer: "b",
+      result2Answer: "f",
+      result3Answer: "e",
+      result4Answer: "g",
+      result5Answer: "c",
+      result6Answer: "a",
+      result7Answer: "d"
       
     },
 
     {
-      question: "What is most important to you, BE HONEST -_-?",
+      question: "What is your favorite word/phrase?",
       answers: {
-        a: "Facial beauty",
-        b: "Thicc thighs",
-        c: "The Heart <3",
-        d: "kroof",
-        e: "y",
-        f: "b",
-        g: "r"
+        a: "Stoopid",
+        b: "Frick",
+        c: "No cap",
+        d: "Hello World",
+        e: "Hmm...Ironic",
+        f: "Savage",
+        g: "Yeet"
       },
-      result1Answer: "a",
-      result2Answer: "b",
-      result3Answer: "c",
-      result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f",
-      result7Answer: "g"
+      result1Answer: "b",
+      result2Answer: "f",
+      result3Answer: "g",
+      result4Answer: "a",
+      result5Answer: "c",
+      result6Answer: "d",
+      result7Answer: "e"
       
     },
 
     {
-      question: "What is most important to you, BE HONEST -_-?",
+      question: "Who is your favourite singer?",
       answers: {
-        a: "Facial beauty",
-        b: "Thicc thighs",
-        c: "The Heart <3",
-        d: "kroof",
-        e: "y",
-        f: "b",
-        g: "r"
+        a: "Joji",
+        b: "6ix9ine",
+        c: "Jake Paul",
+        d: "Weird Al Yankovic",
+        e: "Post Malone",
+        f: "I only listen to video game music",
+        g: "Kendrick Lamar"
       },
-      result1Answer: "a",
-      result2Answer: "b",
-      result3Answer: "c",
-      result4Answer: "d",
-      result5Answer: "e",
+      result1Answer: "b",
+      result2Answer: "c",
+      result3Answer: "e",
+      result4Answer: "a",
+      result5Answer: "g",
       result6Answer: "f",
-      result7Answer: "g"
+      result7Answer: "d"
       
     }
 
