@@ -2,19 +2,31 @@
 
 body{
     font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     color: rgb(41, 201, 193);
   font-weight: 300;
   text-align: center;
   background-color: #f8f6f0;
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(74, 78, 78);
+  font-weight: 500;
+  text-align: center;
+  background-image: url('https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0441/1298/rbobafabricblue_shop_preview.png');
+  background-color: rgba(255,255,255,0.4);
+  background-blend-mode:lighten;
 }
 h1{
-  font-weight: 300;
+  font-weight: bold ;
+  font-family: 'Helvetica', sans-serif;
   margin: 0px;
   padding: 10px;
   font-size: 20px;
   background-color: #444;
   color: #fff;
+  padding: 25px;
+  font-size: 49px;
+  background-color: rgb(226, 173, 236);
+  color: rgb(19, 1, 24);
 }
 .question{
   font-size: 30px;
@@ -30,7 +42,7 @@ h1{
   margin-bottom: 10px;
 }
 button{
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Helvetica', sans-serif;
     font-size: 22px;
     background-color: #279;
     color: #fff;
@@ -39,6 +51,8 @@ button{
     padding: 20px;
     cursor: pointer;
     margin-bottom: 20px;
+    margin-top: 150px;
+    width: 999;
 }
 button:hover{
     background-color: #38a;
@@ -59,6 +73,24 @@ button:hover{
 }
 .quiz-container{
   position: relative;
-  height: 200px;
-  margin-top: 40px;
+  background-color: lightyellow;
+  height: 250px;
+  margin-top: 17px;
 }
+/* HIDE RADIO
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* IMAGE STYLES */
+/* [type=radio] + img {
+  cursor: pointer;
+}
+
+/* CHECKED STYLES */
+/* [type=radio]:checked + img {
+  outline: 2px solid #f00;
+} */ 
