@@ -1,16 +1,16 @@
 (function() {
   const myQuestions = [
     {
-      question: "Which would you most NOT want to be trapped in a room with?",
+      question: "What do you enjoy doing in your free time?",
       answers: {
-        a: "Triggered Mom",
-        b: "Mexican Cage Fighter",
-        c: "Starving Lion",
-        d: "doof",
-        e: "a",
-        f: "q"
+        a: "Reading",
+        b: "Looking at memes",
+        c: "Gaming",
+        d: "Playing with squirrels",
+        e: "Exercising",
+        f: "Programming"
       },
-      result1Answer: "a",
+      result1Answer: "a", 
       result2Answer: "b",
       result3Answer: "c",
       result4Answer: "d",
@@ -72,7 +72,7 @@
       
     }
   ];
-
+/*-----------------------------------------------------------------*/
   function buildQuiz() {
     // we'll need a place to store the HTML output
     const output = [];
@@ -107,12 +107,13 @@
     quizContainer.innerHTML = output.join("");
   }
 
+/*-----------------------------------------------------------------*/
   function showResults() {
     // gather answer containers from our quiz
     const answerContainers = quizContainer.querySelectorAll(".answers");
 
     // keep track of user's answers
-    let result1 = 0;
+    let result1 = 0; 
     let result2 = 0;
     let result3 = 0;
     let result4 = 0;
@@ -132,6 +133,9 @@
         // add to the number of result1 points
         result1++;
         console.log(result1);
+        console.log(userAnswer);
+        userAnswer = 90;
+        console.log(userAnswer);
 
         // color the answers green
       answerContainers[questionNumber].style.color = "lightgreen";
@@ -168,7 +172,7 @@
       }
 
     });
-
+/*-----------------------------------------------------------------*/
     // show number of correct answers out of total
     if (result1 > result2 && result1 > result3 && result1 > result4 && result1 > result5 && result1 > result6){
       resultsContainer.innerHTML = `FEISTY GIRLS are for just for you lmaooo`; 
@@ -193,7 +197,7 @@
   
     
   }
-
+/*-----------------------------------------------------------------*/
   function showSlide(n) {
     slides[currentSlide].classList.remove("active-slide");
     slides[n].classList.add("active-slide");
@@ -208,14 +212,15 @@
     }
   }
 
+/*-----------------------------------------------------------------*/
   function showNextSlide() {
     showSlide(currentSlide + 1);
   }
-
+/*-----------------------------------------------------------------*/
   function showPreviousSlide() {
     showSlide(currentSlide - 1);
   }
-
+/*-----------------------------------------------------------------*/
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
