@@ -81,14 +81,14 @@
       
     },
     {
-      question: "What is most important to you, BE HONEST -_-?",
+      question: "What is your favorite food?",
       answers: {
-        a: "Facial beauty",
-        b: "Thicc thighs",
-        c: "The Heart <3",
-        d: "kroof",
-        e: "y",
-        f: "b",
+        a: "McDonalds",
+        b: "Avocado Toast",
+        c: "Cereal",
+        d: "Korean BBQ",
+        e: "Spaghetti and Meatballs",
+        f: "Raw fish lmao",
         g: "r"
       },
       result1Answer: "a",
@@ -105,7 +105,7 @@
       answers: {
         a: "Boxing",
         b: "Soccer",
-        c: "Hotdog Eating",
+        c: "Slapping ",
         d: "Chess",
         e: "Table Tennis",
         f: "Hunting",
@@ -164,7 +164,7 @@
     },
 
     {
-      question: "Who is your favourite singer?",
+      question: "Who is your favorite singer?",
       answers: {
         a: "Joji",
         b: "6ix9ine",
