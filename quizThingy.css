@@ -13,7 +13,7 @@ body{
 h1{
   font-weight: 600;
   margin: 0px;
-  padding: 10px;
+  padding: 25px;
   font-size: 50px;
   background-color: rgb(226, 173, 236);
   color: rgb(19, 1, 24);
@@ -40,8 +40,9 @@ button{
     border-radius: 3px;
     padding: 20px;
     cursor: pointer;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 800;
 }
 button:hover{
     background-color: #38a;
@@ -63,6 +64,6 @@ button:hover{
 .quiz-container{
   position: relative;
   background-color: lightyellow;
-  height: 200px;
+  height: 170px;
   margin-top: 40px;
 }
