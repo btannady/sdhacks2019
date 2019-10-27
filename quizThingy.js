@@ -1,82 +1,83 @@
 (function() {
   const myQuestions = [
     {
-      question: "What do you enjoy doing in your free time?",
+      question: "Which would you most NOT want to be trapped in a room with?",
       answers: {
-        a: "Reading",
-        b: "Programming",
-        c: "Exercising",
+        a: "Reading", 
+        b: "Programming", 
+        c: "Exercising", 
         d: "Playing with squirrels",
-        e: "Gaming",
-        f: "Looking at memes",
-        g: "Partying"
+        e: "Gaming", 
+        f: "Looking at memes", 
+        g: "Partying" 
       },
-      result1Answer: "a", 
-      result2Answer: "b", 
-      result3Answer: "c", 
+      result1Answer: "e", 
+      result2Answer: "c", 
+      result3Answer: "f", 
       result4Answer: "d", 
-      result5Answer: "e", 
-      result6Answer: "f", 
-      result7Answer: "g" 
+      result5Answer: "g", 
+      result6Answer: "a", 
+      result7Answer: "b" 
+
 
     },
     {
-      question: "What does a perfect day sound like to you?",
+      question: "Favorite social media?",
       answers: {
-        a: "Napping",
-        b: "Watching TV ",
-        c: "Going outside",
-        d: "soof",
-        e: "q",
-        f: "g",
-        g: "h"
+        a: "Reddit",
+        b: "Github",
+        c: "4chan",
+        d: "Snapchat",
+        e: "Instagram",
+        f: "Twitter",
+        g: "Linkedin"
 
       },
       result1Answer: "a",
-      result2Answer: "b",
-      result3Answer: "c",
-      result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f",
-      result7Answer: "g"
+      result2Answer: "e",
+      result3Answer: "f",
+      result4Answer: "c",
+      result5Answer: "d",
+      result6Answer: "g",
+      result7Answer: "b"
     },
     {
-      question: "What is your major?",
+      question: "What is your favorite videogame?",
       answers: {
-        a: "STEM",
-        b: "Non-STEM",
-        c: "I'm not in College lol",
-        d: "doof",
-        e: "a",
-        f: "q",
-        g: "d"
+        a: "Fortnite",
+        b: "Call of Duty",
+        c: "Tetris",
+        d: "Mario",
+        e: "Roblox",
+        f: "Minecraft",
+        g: "Quizlet"
       },
-      result1Answer: "a",
-      result2Answer: "b",
+      result1Answer: "f",
+      result2Answer: "a",
       result3Answer: "c",
       result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f",
-      result7Answer: "g"
+      result5Answer: "b",
+      result6Answer: "g",
+      result7Answer: "e"
     },
     {
-      question: "What is most important to you, BE HONEST -_-?",
+      question: "What kind of social enviornment are you most comfortable in?",
       answers: {
-        a: "Facial beauty",
-        b: "Thicc thighs",
-        c: "The Heart <3",
-        d: "kroof",
-        e: "y",
-        f: "b",
-        g: "r"
+        a: "Only if I'm giving a presentation",
+        b: "Depends on the people...",
+        c: "Where's the party?",
+        d: "Only 1-1 conversations",
+        e: "Pretty social",
+        f: "IDK, I'm so wasted xD",
+        g: "What are friends?"
       },
-      result1Answer: "a",
-      result2Answer: "b",
-      result3Answer: "c",
-      result4Answer: "d",
-      result5Answer: "e",
-      result6Answer: "f",
-      result7Answer: "g"
+      result1Answer: "e",
+      result2Answer: "f",
+      result3Answer: "d",
+      result4Answer: "b",
+      result5Answer: "c",
+      result6Answer: "g",
+      result7Answer: "a"
       
     },
     {
@@ -186,7 +187,7 @@
 
 
   ];
-/*-----------------------------------------------------------------*/
+
   function buildQuiz() {
     // we'll need a place to store the HTML output
     const output = [];
@@ -221,13 +222,12 @@
     quizContainer.innerHTML = output.join("");
   }
 
-/*-----------------------------------------------------------------*/
   function showResults() {
     // gather answer containers from our quiz
     const answerContainers = quizContainer.querySelectorAll(".answers");
 
     // keep track of user's answers
-    let result1 = 0; 
+    let result1 = 0;
     let result2 = 0;
     let result3 = 0;
     let result4 = 0;
@@ -248,9 +248,6 @@
         // add to the number of result1 points
         result1++;
         console.log(result1);
-        console.log(userAnswer);
-        userAnswer = 90;
-        console.log(userAnswer);
 
         // color the answers green
       answerContainers[questionNumber].style.color = "lightgreen";
@@ -291,7 +288,7 @@
       }
 
     });
-/*-----------------------------------------------------------------*/
+
     // show number of correct answers out of total
     if (result1 > result2 && result1 > result3 && result1 > result4 && result1 > result5 && result1 > result6 && result1 > result7){
       resultsContainer.innerHTML = `FEISTY GIRLS are for just for you lmaooo`; 
@@ -319,7 +316,7 @@
   
     
   }
-/*-----------------------------------------------------------------*/
+
   function showSlide(n) {
     slides[currentSlide].classList.remove("active-slide");
     slides[n].classList.add("active-slide");
@@ -334,15 +331,14 @@
     }
   }
 
-/*-----------------------------------------------------------------*/
   function showNextSlide() {
     showSlide(currentSlide + 1);
   }
-/*-----------------------------------------------------------------*/
+
   function showPreviousSlide() {
     showSlide(currentSlide - 1);
   }
-/*-----------------------------------------------------------------*/
+
   const quizContainer = document.getElementById("quiz");
   const resultsContainer = document.getElementById("results");
   const submitButton = document.getElementById("submit");
