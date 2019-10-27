@@ -1,7 +1,7 @@
 (function() {
   const myQuestions = [
     {
-      question: "Which would you most NOT want to be trapped in a room with?",
+      question: "What do you enjoy doing in your free time?",
       answers: {
         a: "Reading", 
         b: "Programming", 
@@ -18,7 +18,6 @@
       result5Answer: "g", 
       result6Answer: "a", 
       result7Answer: "b" 
-
 
     },
     {
@@ -42,7 +41,7 @@
       result7Answer: "b"
     },
     {
-      question: "What is your favorite videogame?",
+      question: "What is your favorite video game?",
       answers: {
         a: "Fortnite",
         b: "Call of Duty",
