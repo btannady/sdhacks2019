@@ -38,16 +38,11 @@ button{
     border-radius: 3px;
     padding: 20px;
     cursor: pointer;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 button:hover{
     background-color: #38a;
 }
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 1b7ce2e5435a9b6804ff0aaac79d95e042c2c22d
 .slide{
   position: absolute;
   left: 0px;
