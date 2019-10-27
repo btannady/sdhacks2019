@@ -293,25 +293,39 @@
 /*------------------------------------------------------------------*/
     // show final results based on which 'result count' contains the highest corresponding answers out of total
     if (result1 > result2 && result1 > result3 && result1 > result4 && result1 > result5 && result1 > result6 && result1 > result7){
-      resultsContainer.innerHTML = `Pewdiepie is your Youtuber!!`; 
+      resultsContainer.innerHTML = `Pewdiepie is your Youtuber!!`;
+      var image = document.getElementById("myImg");
+      image.src = "https://ichef.bbci.co.uk/news/660/cpsprodpb/BC3A/production/_92868184_gettyimages-494848232.jpg"; 
     }
     else if (result2 > result1 && result2 > result3 && result2 > result4 && result2 > result5 && result2 > result6 && result2 > result7){
       resultsContainer.innerHTML = `Logan Paul is your Youtuber!!`;
+      var image = document.getElementById("myImg");
+      image.src = "https://image.businessinsider.com/5a82f6b6d03072bf0e8b458e?width=1100&format=jpeg&auto=webp"; 
     }
     else if (result3 > result1 && result3 > result2 && result3 > result4 && result3 > result5 && result3 > result6 && result3 > result7){
       resultsContainer.innerHTML = 'H3H3 is your Youtuber!!';
+      var image = document.getElementById("myImg");
+      image.src = "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Ffruzsinaeordogh%2Ffiles%2F2016%2F05%2Fethan-and-hila1-1200x622.jpg"; 
     }
     else if (result4 > result1 && result4 > result2 && result4 > result3 && result4 > result5 && result4 > result6 && result4 > result7){
       resultsContainer.innerHTML = `iDubbbz is your Youtuber!!`;
+      var image = document.getElementById("myImg");
+      image.src = "https://i.ytimg.com/vi/WPviAKaHAN0/maxresdefault.jpg"; 
     }
     else if (result5 > result1 && result5 > result2 && result5 > result3 && result5 > result4 && result5 > result6 && result5 > result7){
       resultsContainer.innerHTML = `Cody Ko is your Youtuber!!`;
+      var image = document.getElementById("myImg");
+      image.src = "https://d3gx1wgrn4cpnk.cloudfront.net/uploads/2019/04/Screen-Shot-2019-02-20-at-9.13.50-PM.png"; 
     }
     else if (result6 > result1 && result6 > result2 && result6 > result3 && result6 > result4 && result6 > result5 & result6 > result7){
       resultsContainer.innerHTML = `TechLead is your Youtuber!!`;
+      var image = document.getElementById("myImg");
+      image.src = "https://i.ytimg.com/vi/fssFXlNk6vw/maxresdefault.jpg"; 
     }
     else if (result7 > result1 && result7 > result2 && result7 > result3 && result7 > result4 && result7 > result5 & result7 > result6){
       resultsContainer.innerHTML = `Michael Reemes is your Youtuber!!`;
+      var image = document.getElementById("myImg");
+      image.src = "https://celebslifereel.com/wp-content/uploads/2019/02/Michael-Reeves.jpg"; 
     }else{
       console.log("SOMETHING IS WRONG!!!!")
     }
